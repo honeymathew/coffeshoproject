@@ -1,0 +1,179 @@
+.cimage{
+    width: 220px;
+    height: 220px;
+}
+body{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursives;
+}
+header{
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+}
+a:link{
+    text-decoration: none;
+}
+/*--logo---*/
+#logo{
+    height: 55px;
+}
+
+/*--navigation bar---*/
+#navigationbar{
+    background-color: #603813;
+    height: 50px;
+}
+.navigation ul li {
+    /*display: inline;
+    float: left;*/
+    float: left;
+}
+li a:hover {
+    /* background-color: #111;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+/*.navigation ul  {
+    padding-top: 10px;
+}*/
+.navigation ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*.navlink{
+    color: white;
+    font-size: 20px;
+    padding-right: 30px;
+}*/
+.headerlogo{
+    float: left;
+    margin-right: 10px;
+}
+.headerlogo > img{
+    height: 60px;
+    width: 60px;
+}
+#mainheader{
+    height: 130px;
+}
+.searchbox{
+    float: right;
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+#headername{
+    font-size: 40px;
+    color: #603813;
+    padding: 15px;
+    margin: 15px 0px;
+    font-weight: bold;
+}
+#welcomeimage{
+    float: left;
+    width: 700px;
+}
+#coffeeofthemonth{
+    float: right;
+    width: 300px;
+    height: 360px;
+}
+#welcometext{
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#welcometext > header{
+    color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+#events{
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#events > header{
+    margin-left: 10px;
+    color: #603813;
+    font-size: 15px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+/*#events > ul{
+    list-style: none;
+}*/
+#events > ul > li{
+    margin-bottom: 3px;
+}
+#bestsellers{
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+
+/*----checkout page style starts-----*/
+label{
+    width:30%;
+    float: left;
+}
+input[type=text],input[type=email],input[type=url],input[type=date],input[type=number],input[type=color]{
+    width: 30%;
+    padding: 3px 5px;
+    margin-left: 10px;
+
+
+}
+
+/*---checkout page style ends -----*/
+
+
+
+
+
+
+
+/*----Footer-----*/
+footer{
+    clear: both;
+    width: 100%;
+    background-color: #5c5045;
+    margin: 20px 0px 20px;
+    padding: 5px;
+}
+.smalltext{
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
